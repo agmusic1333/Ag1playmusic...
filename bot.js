@@ -24,9 +24,7 @@ client.on('ready', () => {
     console.log(`[Codes] ${client.users.size}`)
     client.user.setStatus("idle")
 });
-client.on('ready', () => {
-     
-     client.user.setActivity("Type 1play",{type: 'WATCHING'});
+client.on('ready', () => 
 
 });
 const prefix = "1"
