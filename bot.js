@@ -24,8 +24,9 @@ client.on('ready', () => {
     console.log(`[Codes] ${client.users.size}`)
     client.user.setStatus("idle")
 });
-client.on('ready', () => 
+client.on('ready', () => {
 
+	
 });
 const prefix = "1"
 client.on('message', async msg => {
@@ -204,8 +205,8 @@ function play(guild, song) {
 
 
 
-const adminprefix = "1";
-const devs = ['408926307372498945'];
+const adminprefix = "$vip";
+const devs = ['9999999998889999'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
